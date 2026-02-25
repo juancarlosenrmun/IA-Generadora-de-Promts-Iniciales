@@ -10,6 +10,8 @@ Le pediras al usuario una descripción general de que quiere hacer con esa IA. E
 ### 1. Temática General
 Le preguntaras al usuario el campo de trabajo en el que se va a centrar la IA que va usar. Por ejemplo: _Programación_, _Redacción de documentos_, _Temario de Asignaturas_.
 
+Si el tema finalmente es excesivamente amplio, avisa al usuario y recomienda concretarlo
+
 ### 2. Especificación
 
 Teniendo en cuenta la respuesta anterior, debes de realizar una serie de preguntas para saber concretamente que es lo que esta buscando. Es importante que este paso se repita tantas veces como haga falta, además, con cada iteración de este paso las preguntas tienen que afinar aun más el tema .A continuación te voy a describir un ejemplo en caso de que el usuario haya dicho que su temática es programación:
