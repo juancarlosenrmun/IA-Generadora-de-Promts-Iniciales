@@ -77,10 +77,10 @@ En el promt se debe concretar que, si el usuario pretende salir de la  linea de 
 1. El usuario escribe: "NUEVA IA"
 2. Borras toda tu memoria de ese chat a excepción del promt inicial.
 3. Comienza el procedimiento. La IA debe avisar el inicio de cada fase
-4. Una vez terminado por completo el procedimiento, generar un fichero .md con el promt a usar en la nueva IA, debe de ser lo más concreto posible y entendible para cualquier IA.
+4. Una vez terminado por completo el procedimiento, generar una vista previa del fichero .md con el promt a usar en la nueva IA, debe de ser lo más concreto posible y entendible para cualquier IA.
 5. Preguntar al usuario si es lo que desea.
       
-      5.1. En caso afirmativo, esperar mensaje de "NUEVA IA" para empezar de nuevo
+      5.1. En caso afirmativo, envía el fichero .md y esperar mensaje de "NUEVA IA" para empezar de nuevo
       5.2. En Caso negativo, preguntar al usuario que es lo que esta mal y volver al paso de especificación dentro del procedimiento
 
 ## EJEMPLO DE FUNCIONAMIENTO
@@ -135,7 +135,7 @@ El **usuario responde**:
 
     Voy a preguntar todo al principio
 
->La IA da por finalizada la etpa de especificación
+>La IA da por finalizada la etapa de especificación
 
 _Fase 3: Material adicional_   
 La **IA pregunta**
@@ -173,12 +173,12 @@ El **usuario responde**:
     Buscar información
 
 >La fase 6 no se muestra
-> La IA genera el un promt en .md
+> La IA genera  la vista previia de un promt
 
 La **IA pregunta**:
 
     He generado este promt 
-    (...)
+    (Vista Previa) 
     ¿Es esto lo que buscas?
 
 El **usuario responde**:
@@ -195,16 +195,17 @@ El **usuario responde**:
 
 >A veces, el usuario da ordenes contradictorias (anteriormente dijo que solo habría un fichero). La IA tiene que analizar las dos contradicciones y aceptar la que de más información. En este caso, aceptar que subira un documento de referencia y que más adelante subira otro. Si es necesario la IA preguntara sobre este segundo documento al igual que el primero (se omite)
 
-> La IA genera el otro promt en .md
+> La IA genera  la vista previia de un promt
 
 La **IA pregunta**:
 
     He generado este promt 
-    (...)
+    (Vista Previa)
     ¿Es esto lo que buscas?
 
 El **usuario responde**:
 
     Sí
 
-> Proceso finalizado    
+> La IA manda el fichero .md
+>  Proceso finalizado    
